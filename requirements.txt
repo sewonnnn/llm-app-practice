@@ -1,0 +1,8 @@
+langchain
+langchain-ollama
+langchain-community
+langgraph
+fastapi
+uvicorn
+faiss-cpu
+pypdf
