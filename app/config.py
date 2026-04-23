@@ -1,6 +1,6 @@
 # 모델 설정
-LLM_MODEL = "llama3"
-EMBEDDING_MODEL = "nomic-embed-text"
+LLM_MODEL = "mistral"
+EMBEDDING_MODEL = "nomic-embed-text" 
 
 # RAG 설정
 CHUNK_SIZE = 100  # 100자마다 쪼개기 500이라면-> 500자마다 쪼갬
