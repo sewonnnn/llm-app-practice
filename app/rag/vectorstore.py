@@ -4,6 +4,7 @@
   3. load_vectorstore() 함수 — 저장된 벡터 저장소 불러오기
   4. 테스트 코드에서 loader.py의 load_and_split을 가져와서 벡터 저장소 생성
   """
+# 벡터 저장소 생성/불러오기
 
 from langchain_ollama import OllamaEmbeddings
 from langchain_community.vectorstores import FAISS  

@@ -4,6 +4,7 @@
   3. load_and_split(file_path) 함수로 만들기                                                                                                                  
   4. 테스트 코드 추가해서 몇 개의 조각으로 나뉘는지 출력 
 """
+# 문서 로드 + 쪼개기
 
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter

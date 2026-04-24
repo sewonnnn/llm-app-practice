@@ -11,6 +11,8 @@
    python -m app.chains.basic_chain
   """
 
+# Prompt → Model → Parser 기본 체인
+
 from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser

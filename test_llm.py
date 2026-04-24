@@ -1,3 +1,5 @@
+ # LLM 연결 테스트
+
 from langchain_ollama import ChatOllama
 
 model = ChatOllama(model="llama3")

@@ -10,6 +10,9 @@
     +  main_agent.py를 수정해서 대화를 기억하는 Agent로 만들어줘. 
 
 """
+
+# Agent + Memory
+
 from langchain_ollama import ChatOllama
 from langgraph.prebuilt import create_react_agent
 from app.tools.calculator import calculator

@@ -4,6 +4,8 @@
   4. 테스트: "연차 며칠이야?" 질문해보기
   """
 
+# 검색 + RAG 체인
+
 from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser

@@ -7,6 +7,8 @@
   3. 요청 모델은 Pydantic BaseModel로 정의
   """
 
+# FastAPI 서버
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 from app.agents.main_agent import create_agent

@@ -8,7 +8,7 @@
   4. 그래프 조립 — StateGraph + 노드 추가 + 엣지 연결 + 컴파일
   """
 
-# LangGraph 워크플로우
+# LangGraph 워크플로우 (고객 문의 분류)
 
 from typing import TypedDict, Annotated
 from langgraph.graph import StateGraph, START, END
