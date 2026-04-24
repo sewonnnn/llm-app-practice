@@ -8,6 +8,8 @@
   4. 그래프 조립 — StateGraph + 노드 추가 + 엣지 연결 + 컴파일
   """
 
+# LangGraph 워크플로우
+
 from typing import TypedDict, Annotated
 from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
@@ -16,6 +18,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from app.config import LLM_MODEL
 
+# 사용 모델 불러오기
 model = ChatOllama(model=LLM_MODEL)
 
   # 1. State 정의
